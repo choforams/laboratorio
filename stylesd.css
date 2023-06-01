@@ -1,0 +1,174 @@
+/* Estilos para la navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #f2f2f2;
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav ul li:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  nav ul li.search input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+  nav ul li.search button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para la sección de infot */
+  .infot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .infot .block1 .case a{
+    width: 100%;
+    display: flex;
+    /* justify-content: ; */
+}
+  
+  .block1,
+  .block2 {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+  }
+  
+  .block1 img,
+  .block2 img {
+    width: 100%;
+  }
+  
+  .case,
+  .case2 {
+    padding: 10px;
+  }
+  
+  .case a,
+  .case2 a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .case h4,
+  .case2 h4 {
+    margin-top: 10px;
+  }
+  
+  /* Estilos para la sección de héroe */
+  .hero {
+    background-image: url(hero-image.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    background-color: #f1deb7;
+  }
+  
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px 20px 600px;
+  }
+  
+  .hero-content a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .hero h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+  }
+  /* .about-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+  } */
+  
+
+  /* aqui inicia damas productos ///////////////////////// */
+  .procutos-damas{
+    height: 80vh;
+    background-color: #f1deb7;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .procutos-damas .producto{
+    width: 20%;
+    background-color: #f1deb7;
+    height: 90%;
+    margin: auto;
+  }
+  .procutos-damas .producto img{
+    width: 200px;
+    margin-left: 20%;
+
+
+  }
+  .procutos-damas .producto .detalles{
+    background-color: red;
+    height: 40%;
+    display: flex;
+  }
+  .procutos-damas .producto .detalles .talla{
+    background-color: #f1deb7;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+
+  }
+  .procutos-damas .producto .detalles .Precios{
+    background-color:#f1deb7 ;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+
+  }
+  .procutos-damas .producto h3{
+    text-align: center;
+  }
